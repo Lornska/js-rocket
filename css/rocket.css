@@ -23,7 +23,6 @@
 	left: 0;
 	width: 100%;
 	height: 20px;
-
 }
 
 .rocket {
@@ -36,7 +35,7 @@
 	transition: bottom 10000ms;
 }
 
-.rocket.flying {
+body.body-state3. rocket{
 	bottom: 1000px;
 }
 
