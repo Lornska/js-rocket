@@ -1,8 +1,8 @@
-body {
+body{
 	font-family: 'helvetica', 'arial', sans-serif;
 }
 
-.left {
+.left{
 	background-color: cornsilk;
 	position: fixed;
 	width: 50%;
@@ -11,13 +11,12 @@ body {
 	left: 0;
 }
 
-.interface {
+.interface{
 	text-align: center;
 	padding: 20px;
-
 }
 
-a.button {
+a.button{
 	display: inline-block;
 	background-color: white;
 	color: black;
@@ -32,7 +31,7 @@ a:hover{
 	color: red;
 }
 
-.right {
+.right{
 	background-color: aliceblue;
 	position: fixed;
 	width: 50%;
@@ -41,7 +40,7 @@ a:hover{
 	right: 0;
 }
 
-.ground {
+.ground{
 	background: url('../img/ground.png') no-repeat center 0;
 	position: absolute;
 	bottom: 10px;
@@ -53,36 +52,34 @@ a:hover{
 .nervous{
 	position: absolute;
 	bottom: 220px;
-	left:50%;
+	left: 50%;
 	background: url('../img/nervous.png') no-repeat 0 0;
 	width: 223px;
 	height: 100px;
 	margin-left: -180px;
 	display: none;
 }
-
-.nervous.show {
+.nervous.show{
 	display: block;
 }
 
 .cant-wait{
 	position: absolute;
 	bottom: 220px;
-	left:50%;
+	left: 50%;
 	background: url('../img/cant-wait.png') no-repeat 0 0;
 	width: 206px;
-	height: 100px;
+	height: 65px;
 	display: none;
 }
-
-.cant-wait.show {
+.cant-wait.show{
 	display: block;
 }
 
-.rocket {
+.rocket{
 	position: absolute;
 	left: 50%;
-	bottom: -10px;
+	bottom: -13px;
 	width: 143px;
 	height: 272px;
 	margin-left: -71.5px;
@@ -90,15 +87,14 @@ a:hover{
 	transition: bottom 10000ms;
 }
 
+/* rocket bg image */
 body.body-state2 .rocket{
 	background-image: url('../img/rocket-state2.gif');
-	}
-
+}
 body.body-state3 .rocket,
 body.body-state4 .rocket{
 	background-image: url('../img/rocket-state3.gif');
 }
-
 body.body-state5 .rocket{
 	background-image: url('../img/boom.png');
 	width: 209px;
@@ -106,25 +102,20 @@ body.body-state5 .rocket{
 	margin-left: -104.5px;
 }
 
+
 body.body-state1 .rocket{
 	transition: none;
 }
-
-
-body.body-state4 .rocket{
-	background-image: url('../img/rockt-state2.gif');
-}
-
 body.body-state3 .rocket,
 body.body-state4 .rocket{
 	bottom: 1000px;
 }
 
-.state1, 
-.state2, 
-.state3, 
-.state4, 
-.state5 {
+.state1,
+.state2,
+.state3,
+.state4,
+.state5{
 	display: none;
 }
 
@@ -133,8 +124,6 @@ body.body-state2 .state2{display: block;}
 body.body-state3 .state3{display: block;}
 body.body-state4 .state4{display: block;}
 body.body-state5 .state5{display: block;}
-
-}
 
 a{
 
