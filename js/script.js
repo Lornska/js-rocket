@@ -1,3 +1,7 @@
+setTimeOut(function () {
+	location.href = 'rocket.html';
+}, 2000);
+
 // hey this is invisible 
 
 
